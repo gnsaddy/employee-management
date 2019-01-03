@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta name="description" content="Affordable and professional web design">
+<meta name="keywords" content="web design, affordable web design, professional web design">
+<meta name="author" content="Aditya Raj">
+<title>Contact | Welcome</title>
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/share.css">
+<link rel="stylesheet" href="./css/contact.css">
+<style>
+    th, td, p, input {
+        font:14px Verdana;
+    }
+    table, th, td
+    {
+        border: solid 1px #DDD;
+        border-collapse: collapse;
+        padding: 2px 3px;
+        text-align: center;
+    }
+    th {
+        font-weight:bold;
+    }
+</style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1><span class="highlight">Semicolon</span> Technologies</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="login.php">Login</a></li>
+          <li class="current"><a href="employee.html">Employee</a> </li>
+          <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <section id="boxes">
+    <div class="container">
+
+<input type="button" onclick="CreateTableFromJSON()" value="Click to check employee data" />
+    <p id="showData"></p><br>
+    <form  action="test.php" method="get">
+      <input type="button" value="Employee details :" onclick="test.php" />
+    </form>
+
+
+
+<script>
+    function CreateTableFromJSON() {
+        var emp = [
+        {
+        "userId": "dev12" ,
+        "jobTitleName":"Developer",
+        "firstName":"Aditya",
+        "lastName":"Raj",
+        "preferredFullName":"Aditya Raj",
+        "employeeCode":"E1",
+        "region":"IN",
+        "phoneNumber":"8271388851",
+        "emailAddress":"aditya.x510@gmail.com"
+        },
+        {
+        "userId":"ui23",
+        "jobTitleName":"UI Designer",
+        "firstName":"Neil",
+        "lastName":"Irani",
+        "preferredFullName":"Neil Irani",
+        "employeeCode":"E2",
+        "region":"IN",
+        "phoneNumber":"7845123698",
+        "emailAddress":"neilrirani@gmail.com"
+        },
+        {
+        "userId":"db45",
+        "jobTitleName":"Database Designer",
+        "firstName":"Tom",
+        "lastName":"Hanks",
+        "preferredFullName":"Tom Hanks",
+        "employeeCode":"E3",
+        "region":"IN",
+        "phoneNumber":"9632524178",
+        "emailAddress":"tomhanks@gmail.com"
+      },
+      {
+      "userId": "dev12" ,
+      "jobTitleName":"Developer",
+      "firstName":"Aditya",
+      "lastName":"Raj",
+      "preferredFullName":"Aditya Raj",
+      "employeeCode":"E1",
+      "region":"IN",
+      "phoneNumber":"8271388851",
+      "emailAddress":"aditya.x510@gmail.com"
+      },
+      {
+      "userId": "dev12" ,
+      "jobTitleName":"Developer",
+      "firstName":"Aditya",
+      "lastName":"Raj",
+      "preferredFullName":"Aditya Raj",
+      "employeeCode":"E1",
+      "region":"IN",
+      "phoneNumber":"8271388851",
+      "emailAddress":"aditya.x510@gmail.com"
+      },
+      {
+      "userId": "dev12" ,
+      "jobTitleName":"Developer",
+      "firstName":"Aditya",
+      "lastName":"Raj",
+      "preferredFullName":"Aditya Raj",
+      "employeeCode":"E1",
+      "region":"IN",
+      "phoneNumber":"8271388851",
+      "emailAddress":"aditya.x510@gmail.com"
+      },
+      {
+      "userId": "dev12" ,
+      "jobTitleName":"Developer",
+      "firstName":"Aditya",
+      "lastName":"Raj",
+      "preferredFullName":"Aditya Raj",
+      "employeeCode":"E1",
+      "region":"IN",
+      "phoneNumber":"8271388851",
+      "emailAddress":"aditya.x510@gmail.com"
+      },
+      {
+      "userId": "dev12" ,
+      "jobTitleName":"Developer",
+      "firstName":"Aditya",
+      "lastName":"Raj",
+      "preferredFullName":"Aditya Raj",
+      "employeeCode":"E1",
+      "region":"IN",
+      "phoneNumber":"8271388851",
+      "emailAddress":"aditya.x510@gmail.com"
+      },
+      {
+      "userId": "dev12" ,
+      "jobTitleName":"Developer",
+      "firstName":"Aditya",
+      "lastName":"Raj",
+      "preferredFullName":"Aditya Raj",
+      "employeeCode":"E1",
+      "region":"IN",
+      "phoneNumber":"8271388851",
+      "emailAddress":"aditya.x510@gmail.com"
+      },
+      {
+      "userId": "dev12" ,
+      "jobTitleName":"Developer",
+      "firstName":"Aditya",
+      "lastName":"Raj",
+      "preferredFullName":"Aditya Raj",
+      "employeeCode":"E1",
+      "region":"IN",
+      "phoneNumber":"8271388851",
+      "emailAddress":"aditya.x510@gmail.com"
+      },
+      {
+      "userId": "dev12" ,
+      "jobTitleName":"Developer",
+      "firstName":"Aditya",
+      "lastName":"Raj",
+      "preferredFullName":"Aditya Raj",
+      "employeeCode":"E1",
+      "region":"IN",
+      "phoneNumber":"8271388851",
+      "emailAddress":"aditya.x510@gmail.com"
+      },
+      {
+      "userId": "dev12" ,
+      "jobTitleName":"Developer",
+      "firstName":"Aditya",
+      "lastName":"Raj",
+      "preferredFullName":"Aditya Raj",
+      "employeeCode":"E1",
+      "region":"IN",
+      "phoneNumber":"8271388851",
+      "emailAddress":"aditya.x510@gmail.com"
+      },
+      {
+      "userId": "dev12" ,
+      "jobTitleName":"Developer",
+      "firstName":"Aditya",
+      "lastName":"Raj",
+      "preferredFullName":"Aditya Raj",
+      "employeeCode":"E1",
+      "region":"IN",
+      "phoneNumber":"8271388851",
+      "emailAddress":"aditya.x510@gmail.com"
+      }
+        ]
+
+        // EXTRACT VALUE FOR HTML HEADER.
+        // ('Book ID', 'Book Name', 'Category' and 'Price')
+        var col = [];
+        for (var i = 0; i < emp.length; i++) {
+            for (var key in emp[i]) {
+                if (col.indexOf(key) === -1) {
+                    col.push(key);
+                }
+            }
+        }
+
+        // CREATE DYNAMIC TABLE.
+        var table = document.createElement("table");
+
+        // CREATE HTML TABLE HEADER ROW USING THE EXTRACTED HEADERS ABOVE.
+
+        var tr = table.insertRow(-1);                   // TABLE ROW.
+
+        for (var i = 0; i < col.length; i++) {
+            var th = document.createElement("th");      // TABLE HEADER.
+            th.innerHTML = col[i];
+            tr.appendChild(th);
+        }
+
+        // ADD JSON DATA TO THE TABLE AS ROWS.
+        for (var i = 0; i < emp.length; i++) {
+
+            tr = table.insertRow(-1);
+
+            for (var j = 0; j < col.length; j++) {
+                var tabCell = tr.insertCell(-1);
+                tabCell.innerHTML = emp[i][col[j]];
+            }
+        }
+
+        // FINALLY ADD THE NEWLY CREATED TABLE WITH JSON DATA TO A CONTAINER.
+        var divContainer = document.getElementById("showData");
+        divContainer.innerHTML = "";
+        divContainer.appendChild(table);
+    }
+</script>
+    </div>
+      </section>
+  <footer>
+  <p>Team Semicolon, Copyright &copy; 2019</p>
+  </footer>
+
+  </body>
+  </html>
