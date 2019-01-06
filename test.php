@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Affordable and professional web design">
 	  <meta name="keywords" content="web design, affordable web design, professional web design">
-  	<meta name="author" content="Brad Traversy">
+  	<meta name="author" content="Aditya Raj">
     <title>Semicolon | About</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900" rel="stylesheet">
     <style>
 table {
   border-collapse: collapse;
@@ -40,11 +41,18 @@ tr:hover {background-color:#f5f5f5;}
              <li><a href="contact.html">Contact</a> </li>
           </ul>
         </nav>
-
       </div>
     </header>
+    <section id="newsletter">
+      <div class="container">
+        <a href="employee.html"> <button type="button" name="button">All Employee details</button></a>
+      </div>
+    </section>
+
     <section id="main">
   <div class="container">
+
+
 
 <?php
 /* Attempt MySQL server connection. Assuming you are running MySQL

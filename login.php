@@ -5,6 +5,7 @@
 	<title>Registration system PHP and MySQL</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="./css/style.css">
+	<link href="//fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900" rel="stylesheet">
 </head>
 <body>
 	<header>
@@ -20,6 +21,7 @@
 					<li class="current"><a href="login.php">Login</a></li>
 					<li><a href="test.php">Employee</a></li>
 					 <li><a href="contact.html">Contact</a> </li>
+
 				</ul>
 			</nav>
 
